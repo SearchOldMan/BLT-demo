@@ -1,0 +1,59 @@
+/******************该样式是除了首页之外的其他导航栏目的样式****************************/
+/*隐藏滚动条*/
+body{
+	overflow: hidden;
+}
+
+/*注册和登录下的线*/
+.aboutcompany{
+	font-size: 20px;
+	font-family: "宋体";
+	font-weight: bold;
+	border-bottom: 2px solid #C5B134;
+	padding-bottom:5px; 
+}
+/*用户登陆*/
+.loading{
+	width: 800px;
+	margin: 60px auto;
+	position: relative;
+
+}
+.user{
+	margin-top: 60px;
+}
+
+#form{
+	position: absolute;
+	top:100px;
+	left: 50%;
+	margin-left: -136px;
+}
+
+.zhuce{
+	display: block;
+	margin-top: 20px;
+	float: right;
+	font-size: 10px;
+	color:gray;
+}
+.zhuce a{
+	color:red;
+}
+/*个人注册*/
+.username{
+	position: absolute;
+	left: 28%;
+	top:100px;
+}
+
+/*公司地址:包含地址截图，热线，详细地址*/
+.location{
+	padding: 0;
+}
+.m20{
+	margin-right: 40px;
+}
+.img-location{
+	width: 100%;
+}

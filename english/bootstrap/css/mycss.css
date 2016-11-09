@@ -1,0 +1,143 @@
+/**************************该样式是一些公共样式以及首页样式***************************************/
+/*********************选择语言******************************/
+.language{
+	position: relative;
+}
+.language .btn1{
+	position: absolute;
+	top:0px;
+	right:30%;
+}
+.language .btn2{
+	position: absolute;
+	top:0px;
+	right:20%;
+}
+.language .btn3{
+	position: absolute;
+	top:0px;
+	right:10%;
+} 
+/***************公司logo***************************/
+#header{
+	padding:70px 0px 0px 66px;
+	height: 120px;
+}
+
+.logo{
+	background: url(../images/BTL_logo.jpg) no-repeat -14px 17px;
+	background-size: 8em;
+}
+.nav-name{
+	font-family: "微软雅黑";
+	font-size: 30px;
+	font-weight: bold;
+}
+.line{
+	width: 100%;
+	border: 2px solid #C5B134;
+}
+
+/******************导航栏************************/
+#nav_header li a.hover{
+	background-color: #C5B134;
+} 
+.gold{
+	background-color: #C5B134;
+}
+/********************路径导航**************************/
+.temp{
+	margin-top: 10px;
+}
+.currentLocation{
+	color:#c5c5c5;
+}
+
+
+/*******************公司公告和招聘****************************/
+.company-news{
+	margin-top: 30px;
+	padding: 0;
+}
+
+.list-group li a.orange:link{
+	color:green;
+}
+.list-group li a.orange:hover{
+	color:deeppink;
+}
+
+/*******************登陆须知*************************/
+.needknow{
+	margin-top: 20px;
+	padding: 0;
+}
+.more{
+	float: right;
+}
+/******************关注我们****************************/
+.focusus{
+	position: absolute;
+	top:350px;
+	padding: 0;
+}
+.fs1{
+	float: right;
+}
+
+/**********************金融数据*******************************/
+.shuju{
+	position: absolute;
+	top:500px;
+	padding: 0;
+}
+/*********表格显示数据*************/
+.shuju table td.red{
+	color:red;
+}
+
+
+/***********************版权声明*********************************/
+#footer{
+	position: absolute;
+	bottom: -400px;
+	left:21%;
+} 
+ul{
+	list-style: none;
+}
+.copy{
+	height: 40px;
+}
+.copy ul li{
+	width: 110px;
+	font-size: 14px;
+	float: left;
+	margin-right: 10px;
+	padding-right: 5px;
+	border-right: 1px solid red;
+	text-align: center;
+}
+.copy ul li.last{
+	border: 0;
+}
+.copy li a{
+	color:black;
+	display: block;
+}
+/************版权文件编号*****************/
+.file{
+	height: 35px;
+	text-indent: 3em;
+}
+/*******公司logo************/
+.footer img{
+	width: 106px;
+	height: 112px;
+	position: absolute;
+	right: -727px;
+	bottom: 0px;
+}
+
+
+
